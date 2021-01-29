@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.atas {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+}
+
+.atas .right a {
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.pertama {
+  background: url(./asset/Saudi-Arabia-blurred.jpg);
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap .nav a {
+  margin-left: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.wrap .kanan nav a {
+  color: white;
+}
+
+.wrap .kanan nav {
+  background-color: black;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+.wrap .kiri {
+  margin: 40px;
+}
+
+.bawah .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bawah .container .kiri {
+  width: 70%;
+}
+
+.bawah .container .kiri p {
+  width: 100%;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 27px;
+}
+
+.bawah .container .kiri button {
+  color: black;
+  background-color: yellow;
+  border-color: yellow;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+.bawah .container .kanan {
+  margin-left: 100px;
+}
+
+.bawah .container .kanan p {
+  width: 80%;
+  color: white;
+  background-color: black;
+}
+
+.kotak .konten {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.kotak .konten .img1 {
+  width: 370px;
+  height: 400px;
+  margin-top: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.kotak .konten .img1 p {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-color: black;
+  padding: 10px;
+  width: 80%;
+  font-size: 15px;
+}
+
+.last .konten {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 150px;
+  background-color: black;
+}
+
+.last .konten .kiri {
+  width: 500px;
+  height: 550px;
+}
+
+.last .konten .kanan {
+  padding: 60px;
+  color: white;
+}
+
+footer .atas {
+  background-color: #413f3f;
+  margin-top: 40px;
+}
+
+footer .atas .container {
+  padding: 15px;
+  color: white;
+}
+
+footer .bawah {
+  background-color: black;
+}
+
+footer .bawah .container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  width: 82.5%;
+}
+
+footer .bawah .container1 .kiri ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer .bawah .container1 .kiri ul li {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+footer .bawah .container1 .kiri ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0px;
+  margin-top: 70px;
+}
+
+footer .bawah .container1 .kiri p {
+  color: white;
+}
+
+footer .bawah .container1 .kanan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .bawah .container1 .kanan img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+footer .bawah .container1 .kanan p {
+  padding: 70px 0;
+  margin-top: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=style.css.map */
